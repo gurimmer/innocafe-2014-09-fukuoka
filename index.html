@@ -7,9 +7,17 @@
       body {
         line-height: 1.8;
         font-family: "Arial Rounded MT", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "HG丸ゴシックM-PRO", "メイリオ", Meiryo, Arial, sans-serif;
+        color: #222;
+        background: #fff;
       }
       h1, h2, h3 {
+        font-size: 20px;
         font-weight: normal;
+      }
+      a:link, a:visited { color: #00b793; }
+      strong { display: inline-block; padding: 2px 8px; background: #99f6e4; border-radius: 2px; }
+      p, ul, ol {
+        font-size: 18px;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
     </style>
@@ -21,10 +29,10 @@ class: center, middle
 
 # InnoCafe in 福岡
 
-## 開発コミュニティミートアップ
+## 開発コミュニティーミートアップ
 
 Sep 12, 2014  
-Innovator Japan Inc.
+__Innovator Japan Inc.__
 
 ---
 
@@ -39,10 +47,13 @@ TwitterとかFacebookとか、是非いろいろつぶやいてください。
 
 # 前置き
 
-Innovator Japanでは、社外の皆さまも自由に参加できるイベント「InnoCafe」を隔月で開催しています。
+Innovator Japanでは、社外の皆さまも自由に参加できるイベント  
+__InnoCafe（イノカフェ）__を隔月で開催しています。
 
-普段は東京オフィスで開催しているのですが、福岡オフィスでもやろう！ということになり。
-折角だからいろいろな方をお呼びできたらいいね、ということで普通の勉強会とは違う感じで企画したらこうなりましたｗ
+普段は東京オフィスで開催しているのですが、  
+福岡オフィスでもやろう！　ということになり。  
+折角だからいろいろな方をお呼びできたらいいね、  
+ということで普通の勉強会とは違う感じで企画したらこうなりました。
 
 最後まで楽しんでいただければ幸いです！
 
@@ -50,15 +61,16 @@ Innovator Japanでは、社外の皆さまも自由に参加できるイベン�
 
 # Innovator Japan
 
-__“社会やあらゆる組織にイノベーションを起こす”__
+__社会やあらゆる組織にイノベーションを起こす__
 
 やっていること
 
-- メディア運営（AdverTimes、宣伝会議オンラインなど）
-- 自社サービスの運営も最近はじめました（tenpu）
-- 飲食店の企画経営・店舗デザイン（イタリアンレストラン、カフェ）
+- メディア運営（[AdverTimes](http://www.advertimes.com/)、[宣伝会議オンライン](http://www.sendenkaigi.com/)など）
+- 自社サービスの運営も最近はじめました（[tenpu](https://www.tenpu.me/)）
+- 飲食店の企画経営・店舗デザイン（[イタリアンレストラン](http://www.flattoria.com/)、[カフェ](http://www.avancons.jp/)）
 
-東京と福岡にオフィスがあります。IT・クリエイティブ・マーケティングの3要素を組み合わせてイノベーションを起こしていくのがミッションです。
+東京と福岡にオフィスがあります。IT・クリエイティブ・マーケティングの  
+3要素を組み合わせてイノベーションを起こしていくのがミッションです。
 
 ---
 
@@ -101,7 +113,8 @@ class: center, middle
 - Blog: [Beating the Averages(just like me)](http://udzura.hatenablog.jp/)
 - 所属: Fukuoka.rb, ちょっとだけ Fukuoka.go
 
-[GMOペパボ株式会社](http://pepabo.com/) 技術基盤チーム所属、フルスタックなんとか。福岡勤務。Rubyをちょっとやります。
+[GMOペパボ株式会社](http://pepabo.com/) 技術基盤チーム所属、フルスタックなんとか。  
+福岡勤務。Rubyをちょっとやります。
 
 ---
 
@@ -125,9 +138,9 @@ class: center, middle
 
 - Twitter: @mune_nori
 - 運営コミュニティ
-	- 福岡Webディレクターズ
-	- 福岡マークアップ勉強会
-	- HTML5+α @福岡
+ - 福岡Webディレクターズ
+ - 福岡マークアップ勉強会
+ - HTML5+α @福岡
 
 [株式会社Zero-Ten](http://zeroten.jp/) でWebディレクター、デザイナーしています。
 
@@ -139,11 +152,12 @@ class: center, middle
 
 - Twitter: @hiro_y
 - GitHub: @hiroy
-- ゆるふわDevelopment Club（ゆるデ部）
+- 所属: ゆるふわDevelopment Club（ゆるデ部）, P4D
 
-写真共有サイトの面倒を見たり、ソーシャルゲームのローカライゼーションやらエンジニアの採用やらに携わってきました。
+写真共有サイトの面倒を見たり、ソーシャルゲームのローカライゼーションやら  
+エンジニアの採用やらに携わってきました。
 
-合同会社テンマド（10mado, LLC）という会社をはじめました。  
+[合同会社テンマド（10mado, LLC）](http://10mado.jp/)という会社をはじめました。  
 Innovator JapanにはCTOとして参画しています。
 
 ---
@@ -213,11 +227,11 @@ class: center, middle
 - フロントエンドまわりを中心とした、「初心者向け」がモットーの勉強会。  
 - 講師は運営からだけでなく、過去の参加者だったり、テーマを決めてそのテーマに沿った人を探してきたりして、みんなで作りあげていく勉強会です。
 - 対象
-  - (主に初心者の)マークアップエンジニア、Webデザイナー、Webプログラマー。
+ - (主に初心者の)マークアップエンジニア、Webデザイナー、Webプログラマー。
 - 活動内容
-	- 運営側が毎回勉強内容を決めて、それに関して「しゃべってもいいよ」的な素敵な方をアサインして、登壇していただいています。
-	- html5jマークアップ部と共催して[マークアップカフェ福岡](http://html5experts.jp/bathtimefish/6644/)とか開催もしてます！
-	- 現在、次回勉強ネタを模索中ｗ
+ - 運営側が毎回勉強内容を決めて、それに関して「しゃべってもいいよ」的な素敵な方をアサインして、登壇していただいています。
+ - html5jマークアップ部と共催して[マークアップカフェ福岡](http://html5experts.jp/bathtimefish/6644/)とか開催もしてます！
+ - 現在、次回勉強ネタを模索中ｗ
 
 ---
 
@@ -227,9 +241,9 @@ class: center, middle
 - 対象
   - Webプロデューサー、Webディレクター、Webデザイナー、その他興味がある方ならどなたでも。
 - 活動内容
-	- プロジェクトを進めていく上での成功あるあるや失敗あるあるなどを話したり聞いたり
-	- 講師を招いてのワークショップ等
-	- 不定期開催ですが、「こんなのやってみたい!」的なご要望があれば、お気軽に言ってください!
+ - プロジェクトを進めていく上での成功あるあるや失敗あるあるなどを話したり聞いたり
+ - 講師を招いてのワークショップ等
+ - 不定期開催ですが、「こんなのやってみたい!」的なご要望があれば、お気軽に言ってください!
 
 ---
 
@@ -241,7 +255,54 @@ class: center, middle
 
 class: center, middle
 
-# FIXME: 話したいこと、他の人に聞きたいことあれば書いておいてください
+開発コミュニティー
+
+# __よかったこと__
+
+---
+
+class: center, middle
+
+開発コミュニティー
+
+# __大変だったこと__
+
+---
+
+class: center, middle
+
+開発コミュニティー
+
+# __悩んでいること__
+
+相談とかしちゃうの、いいと思う
+
+---
+
+class: center, middle
+
+開発コミュニティー
+
+# __聞きたいこと__
+
+知見、集めよう
+
+---
+
+class: center, middle
+
+開発コミュニティー
+
+# __チャレンジしたいこと__
+
+---
+
+class: center, middle
+
+会場の皆さんから
+
+# 質問とか要望とか、どうぞ
+
 
     </textarea>
     <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
